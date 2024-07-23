@@ -47,11 +47,17 @@ The project requires the following Python packages, listed in `requirements.txt`
 To install and run the project locally, follow these steps:
 
 1. Clone the repository:
-   - git clone <https://github.com/gowthamigs/kannada_rec/.git>
-   - cd Kannada-Character-Recoginition
-
+    ```bash
+     git clone <https://github.com/gowthamigs/kannada_rec/.git>
+    ```
+    ```bash
+    cd Kannada-Character-Recoginition
+    ```
+  
 2. Install the required packages:
-   - pip install -r requirements.txt
+     ```bash
+   pip install -r requirements.txt
+     ```
 
 3. Download and add the dataset:
    - Download the dataset from [this URL](https://shorturl.at/XbIvl).
@@ -60,12 +66,9 @@ To install and run the project locally, follow these steps:
 ## Usage
 
 To run the application, use the following command:
-
+```bash
 streamlit run demo2.py
-
-Or, if you are using a notebook, open it with:
-
-- `jupyter notebook`
+```
 
 ## Contributing
 
